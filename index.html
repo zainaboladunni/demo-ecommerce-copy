@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Home | Demo Ecommerce</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="form-container">
+            <img class="logo-img" src="images/apple-logo.png" />
+            <h2 class="tell-us-text">Tell us a little bit about your store</h2>
+            <div class="text-gray">
+                This is just an intial information about your business. <br />
+                You can change it anytime.
+            </div>
+
+            <form class="registration-form">
+                <input type="text" name="store_name" class="form-text-input" placeholder="Store Name" />
+
+                <select name="industry" class="form-select">
+                    <option value="">Industry</option>
+                    <option value="medical">Medical</option>
+                    <option value="automobile">Automobile</option>
+                </select>
+
+                <label class="reg-business-label">
+                    <input type="checkbox" name="registered_business" value="yes" />
+                    This store is a registered business
+                </label>
+
+                <input type="text" name="company_legal_name" class="form-text-input" placeholder="Company Legal Name" />
+
+                <input type="text" name="tax_id" class="form-text-input" placeholder="Tax ID Number" />
+
+                <div class="form-group">
+                    <input type="text" name="zip_code" class="form-text-input" placeholder="ZIP Code" />
+
+                    <input type="text" name="city" class="form-text-input" placeholder="City" />
+                </div>
+
+                <select name="country" class="form-select">
+                    <option value="">Country</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="south korea">South Korea</option>
+                </select>
+
+                <div class="form-group form-action-wrapper">
+                    <a class="go-back-text" href="#">
+                        <ion-icon name="chevron-back-outline"></ion-icon> Go back
+                    </a>
+
+                    <button type="submit" class="primary-btn">Save and continue</button>
+                </div>
+
+            </form>
+        </div>
+        <div class="image-container">
+            <div class="tagline-text">It's time to bring<br /> your business<br /> online</div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
